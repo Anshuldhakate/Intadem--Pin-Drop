@@ -2,6 +2,9 @@
 
 A React-based interactive map tool that allows users to drop pins, add remarks, and automatically fetch addresses using OpenStreetMap's Nominatim API. Saved pins are displayed in a sidebar and persisted using localStorage.
 
+## Deployed Link-
+https://celadon-otter-4c9242.netlify.app
+
 ## Features
 
 - **Interactive Map Interface:** Drop pins anywhere on the map.
