@@ -1,0 +1,47 @@
+/* src/components/MapComponent.css */
+.map-container {
+  flex: 1; 
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 60vh;
+  }
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.remark-textarea {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+  resize: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.address-text {
+  margin: 5px 0;
+  color: #555;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
